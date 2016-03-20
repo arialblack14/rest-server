@@ -16,6 +16,7 @@ db.once('open', function() {
   console.log("Connected correctly to server");
 });
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var dishRouter = require('./routes/dishRouter');
